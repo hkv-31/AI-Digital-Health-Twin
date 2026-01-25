@@ -12,10 +12,6 @@ myenv/
 
 .streamlit/
 
-*.pkl
-*.joblib
-*.h5
-
 *.log
 *.tmp
 
