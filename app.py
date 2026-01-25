@@ -24,7 +24,6 @@ def cached_gemini_call(prompt):
 
 st.set_page_config(
     page_title="WHO-Aligned AI Health Digital Twin",
-    page_icon="🏥",
     layout="wide"
 )
 
@@ -272,10 +271,10 @@ def generate_pdf(user_data, risks, classifications):
 
     return pdf.output(dest="S").encode("latin-1")
 
-st.title("🏥 WHO-Aligned AI Health Digital Twin")
+st.title("WHO-Aligned AI Health Digital Twin")
 st.warning("Preventive risk awareness only. This is not a medical diagnosis.")
 
-tab1, tab2, tab3 = st.tabs(["📋 Input & Analyze", "📊 Results", "📄 Download Report"])
+tab1, tab2, tab3 = st.tabs(["Input & Analyze", "Results", "Download Report"])
 
 with tab1:
     st.subheader("Option A — Upload Report (PDF/Image)")
@@ -396,7 +395,7 @@ from ml.predictor import (
 DATASET_PATH = "final_combined_dataset.csv"  
 
 st.divider()
-st.subheader("📈 Model Insights (Dataset-level graphs)")
+st.subheader("Model Insights (Dataset-level graphs)")
 
 if os.path.exists(DATASET_PATH):
     with st.expander("Show model insight graphs (from dataset)", expanded=False):
