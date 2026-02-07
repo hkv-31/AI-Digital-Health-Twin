@@ -1,0 +1,81 @@
+{
+    "header": {
+        "title": "HealthTwin",
+        "nav": [
+            {
+                "label": "Features",
+                "href": "/"
+            },
+            {
+                "label": "Analyze",
+                "href": "/dashboard"
+            }
+        ]
+    },
+    "hero": {
+        "title": "Your AI-Powered Personal Health Twin",
+        "subtitle": "Predict diabetes, hypertension, and heart disease risks before they happen. Powered by WHO standards and advanced AI.",
+        "cta": "Start Analysis",
+        "stats": [
+            {
+                "value": "90%+",
+                "label": "Early Detection"
+            },
+            {
+                "value": "WHO",
+                "label": "Aligned"
+            },
+            {
+                "value": "AI",
+                "label": "Powered"
+            }
+        ]
+    },
+    "features": [
+        {
+            "title": "Instant Risk Analysis",
+            "description": "Upload a blood report and get instant ML-based risk predictions for 3 major chronic conditions."
+        },
+        {
+            "title": "Doctor-Friendly Explanations",
+            "description": "Our AI explains medical jargon in plain English, helping you have better conversations with your doctor."
+        },
+        {
+            "title": "Privacy First",
+            "description": "Your health data is processed securely. We prioritize your privacy and data security."
+        }
+    ],
+    "upload": {
+        "title": "Analyze Your Health",
+        "description": "Upload a PDF or Image of your blood test report, or enter values manually.",
+        "dropText": "Drag & drop report here, or click to select",
+        "manualText": "Enter Manually",
+        "analyzing": "Processing Report...",
+        "error": "Failed to upload. Please try again."
+    },
+    "manual": {
+        "title": "Enter Health Metrics",
+        "description": "Fill in the details from your latest lab report.",
+        "submit": "Run Analysis"
+    },
+    "dashboard": {
+        "title": "Your Health Profile",
+        "riskTitle": "Risk Assessment (ML Models)",
+        "whoTitle": "WHO Classification",
+        "explanationTitle": "AI Health Insight",
+        "chatTitle": "Health Assistant",
+        "disclaimer": "This is a preventive risk estimation tool, not a medical diagnosis. Please consult a doctor.",
+        "chat": {
+            "welcome": "Hello! I am your AI health assistant. Ask me anything about your results.",
+            "placeholder": "Type your question here..."
+        }
+    },
+    "risks": {
+        "diabetes": "Diabetes Risk",
+        "hypertension": "Hypertension Risk",
+        "cvd": "Cardiovascular Risk",
+        "low": "Low Risk",
+        "moderate": "Moderate Risk",
+        "high": "High Risk"
+    }
+}
