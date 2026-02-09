@@ -76,7 +76,7 @@ This kept the system simple, consistent, and easy to debug during rapid developm
 ---
 
 ### 🔹 Application & UI
-**Streamlit**  
+**Fast API and Vite**  
 Serves as the main application interface and system orchestrator.
 
 Enables users to:
