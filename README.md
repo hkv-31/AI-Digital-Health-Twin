@@ -1,5 +1,5 @@
 #  Personal Health Digital Twin Platform
-AI-Powered Preventive Health Risk Estimation for India
+AI-Powered Preventive Health Risk Estimation for Indians
 
 ---
 
